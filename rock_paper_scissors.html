@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <style>
+        body {
+            width: 40rem;
+            margin: 2rem;
+        }
+    </style>
+    <title>Rock, Paper, Scissors!</title>
+</head>
+<body>
+    <form action="javascript:playGame(this)">
+        <fieldset role="group">
+            <input type="text" id="playerSelection" placeholder="Rock, Paper, or Scissors" autofocus aria-label="Text" />
+            <input type="submit" value="Play a Round!">
+        </fieldset>
+    </form>
+    <div id="results"></div>
+    <script src="rock_paper_scissors.js"></script>
+</body>
+</html>
